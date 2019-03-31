@@ -1,0 +1,292 @@
+@font-face {
+    font-family: headline;
+    src: url('/fonts/nextrust/nextrust.woff');
+}
+
+@font-face {
+    font-family: bodytext;
+    src: url('/fonts/fanwood/fanwood_text.woff');
+}
+
+/* Sets column width to 100% for mobile first designed website */
+[class*="col-"] {
+      width: 100%;
+  }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+
+nav li:not(:first-child) {display: none;}
+
+  nav.responsive {position: relative;}
+  nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (min-width:768px) {
+
+  /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+  av li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*Set all HTML elements' box-sizing property to border-box */
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+		border-top: 10px;
+		border-bottom: 3px;
+		margin-left: 10%;
+		border-bottom: thin solid black;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav li:hover {
+  background-color: #DCDCDC;
+  text-decoration: none;
+}
+/* Float the list items side by side */
+nav li {float: left;}
+
+/* Style the links inside the list items */
+nav li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 4px 4px;
+		margin: 10px 10px;
+    text-decoration: none;
+		text-decoration-color: black;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.fixed {
+  position: fixed;
+  color: gray;
+  border-bottom: 3px;
+  top: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 10px;
+  border-bottom: 3px;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: thin solid black;
+}
+
+.fixed ul li {
+	list-style-type: none;
+}
+
+.fixed li:hover {
+  background-color: #DCDCDC;
+  text-decoration: none;
+}
+/* Float the list items side by side */
+.fixed li {float: left;}
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+nav li.icon {display: none;}
+
+
+#masthead {
+
+}
+
+
+#photo {
+	border: 20px;
+	padding: 20px;
+  margin-left: 10%;
+}
+
+img {
+   border:2px solid #021a40;
+}
+
+#masthead {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+	border-bottom: solid black;
+}
+
+#masthead p {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  color: grey;
+}
+
+#nameplate {
+  font-family: headline;
+  text-align: center;
+  margin-bottom: 3px;
+  padding-bottom: 0px;
+}
+
+#headline {
+  margin: auto;
+  width: 80%;
+	text-align: center;
+  font-family: headline;
+}
+
+#homelink {
+  font-family: headline;
+}
+
+body {
+	background-color: #f2f2f2
+	font-family: bodytext;
+	color: black;
+	font-size: 20px;
+}
+
+#maincontent {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#maincontent p {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+#photo {
+  color: lightgray;
+  font-size: 8px;
+  float: right;
+  margin: 5px;
+	max-width: 100%;
+	padding: 10px;
+	border: thin solid lightgrey;
+}
+
+.404 {
+  margin-left: 30%;
+  width: 80%;
+  text-align: center;
+  height: 400px;
+}
+
+#Works {
+	margin: 10px;
+	padding-left: 10px;
+}
+
+#posting {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.subheading {
+	font-family: "Courier New";
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: .8em;
+  }
+  .photo {
+     width: 50%;
+     height: 50%;
+  }
+}
+
+.footer {
+	bottom: 10px;
+	background-color: #f2f2f2;
+	margin-left: 10%;
+  margin-top: 5%;
+	width: 80%;
+	text-align: center;
+	position: fixed;
+	border-radius: 15px;
+}
+
+.footer ul {
+		margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+		border-top: 10px;
+		border-bottom: 3px;
+}
+
+.footer ul li {
+	display: inline;
+	border-left: thin solid #e6e6e6;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 0.8em;
+	color: grey;
+}
+
+.footer ul li a {
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	text-decoration: none;
+}
