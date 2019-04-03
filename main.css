@@ -4,7 +4,7 @@ body {
 }
 
 .jumbotron {
-background-image: url(/img/wildflowers.jpg);
+background-image: url(https://neillperry.github.io/img/wildflowers.jpg);
 background-size: cover;
 height: 100%;
 }
