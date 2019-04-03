@@ -1,10 +1,10 @@
 
 body {
-  background-color: F8F8FF;
+  background-color: blue;
 }
 
 .jumbotron {
-background-image: url("/img/wildflowers.jpg");
+background-image: url("../img/wildflowers.jpg");
 background-size: cover;
 height: 100%;
 }
