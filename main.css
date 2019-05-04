@@ -7,7 +7,7 @@ body {
 background-image: url("../img/wildflowers.jpg");
 background-size: cover;
 height: 100%;
-min-height: 300px; 
+min-height: 300px;
 }
 
 .footer {
@@ -34,4 +34,8 @@ min-height: 300px;
 
 .footer ul li a:hover {
 	text-decoration: none;
+}
+
+h1 {
+  font-variant: small-caps;
 }
