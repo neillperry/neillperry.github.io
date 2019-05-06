@@ -19,12 +19,13 @@ footer {
   left: 0;
   bottom: 10px;
   margin-top: 5%;
-  width: 100%;
+  width: 80%;
   color: grey;
   text-align: center;
 }
 
 footer ul li {
+  list-style-type: none;
 	display: inline;
 	border-left: thin solid #e6e6e6;
 	padding-left: 10px;
