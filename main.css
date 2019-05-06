@@ -1,8 +1,4 @@
 
-body {
-  background-color: blue;
-}
-
 .jumbotron {
 background-image: url("../img/wildflowers.jpg");
 background-size: cover;
@@ -10,16 +6,25 @@ height: 100%;
 min-height: 300px;
 }
 
-.footer {
+
+
+body {
+  background-color: blue;
+}
+
+
+
+footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
+  margin-top: 5%;
   width: 100%;
   color: grey;
   text-align: center;
 }
 
-.footer ul li {
+footer ul li {
 	display: inline;
 	border-left: thin solid #e6e6e6;
 	padding-left: 10px;
@@ -28,11 +33,11 @@ min-height: 300px;
 	color: grey;
 }
 
-.footer ul li a {
+footer ul li a {
 	text-decoration: none;
 }
 
-.footer ul li a:hover {
+footer ul li a:hover {
 	text-decoration: none;
 }
 
