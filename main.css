@@ -8,3 +8,40 @@ min-height: 300px;
 h1 {
   font-variant: small-caps;
 }
+
+.footer {
+	bottom: 10px;
+	background-color: #f2f2f2;
+	margin-left: 10%;
+  margin-top: 5%;
+	width: 80%;
+	text-align: center;
+	position: fixed;
+	border-radius: 15px;
+}
+
+.footer ul {
+		margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+		border-top: 10px;
+		border-bottom: 3px;
+}
+
+.footer ul li {
+	display: inline;
+	border-left: thin solid #e6e6e6;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 0.8em;
+	color: grey;
+}
+
+.footer ul li a {
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	text-decoration: none;
+}
