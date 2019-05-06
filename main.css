@@ -10,11 +10,11 @@ footer {
   left: 0;
   bottom: 10px;
   margin-top: 5%;
-  display: inline-block !important;
+  display: inline !important;
 }
 
 footer ul {
-  display: inline-block;
+  display: inline;
   list-style-type: none;
 }
 
