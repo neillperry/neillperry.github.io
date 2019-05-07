@@ -9,20 +9,20 @@ h1 {
   font-variant: small-caps;
 }
 
-.footer {
-  background-color: black;
+/* ALBUM */
+.album {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 200px;
 }
 
-/*
+/*  FOOTER */
 .footer {
 	bottom: 10px;
-	background-color: #f2f2f2;
 	margin-left: 10%;
   margin-top: 5%;
 	width: 80%;
 	text-align: center;
-	position: fixed;
-	border-radius: 15px;
 }
 
 .footer ul {
@@ -51,4 +51,3 @@ h1 {
 .footer ul li a:hover {
 	text-decoration: none;
 }
-*/
