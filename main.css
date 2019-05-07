@@ -30,12 +30,13 @@ h1 {
 }
 
 .footer ul li {
-	display: inline;
+	display: inline-block;
 	border-left: thin solid #e6e6e6;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-size: 0.8em;
 	color: grey;
+  overflow: hidden;
 }
 
 .footer ul li a {
