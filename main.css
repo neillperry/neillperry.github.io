@@ -31,6 +31,16 @@ div.desc {
   text-align: center;
 }
 
+/* PROJECTS - Title and Live Code links */
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right
+}
+
 /*  FOOTER */
 .footer {
 	bottom: 10px;
