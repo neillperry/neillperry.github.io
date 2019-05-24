@@ -8,6 +8,10 @@ html {
   text-decoration-color: white;
 }
 
+main {
+  padding-bottom: 2.5rem;
+}
+
 .jumbotron {
 background-size: cover;
 height: 100%;
@@ -52,11 +56,11 @@ div.desc {
 
 /*  FOOTER */
 .footer {
-	bottom: 10px;
-	margin-left: 10%;
-  margin-top: 5%;
-	width: 80%;
+  position: absolute;
+	bottom: 0;
+	width: 100%;
 	text-align: center;
+  height: 2.5rem;
 }
 
 .footer ul {
