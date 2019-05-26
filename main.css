@@ -19,7 +19,7 @@
 }
 
 .inset img {
-  background-image: url('../img/Avatar_noodles.jpg');
+  background-image: url('img/Avatar_noodles.jpg');
   border-radius: inherit;
   width: inherit;
   height: inherit;
@@ -29,8 +29,8 @@
 }
 
 .jumbotron {
-background-image: url('../img/rodeo.jpg');
-background-color: black; 
+background-image: url('img/rodeo.jpg');
+background-color: black;
 background-size: cover;
 height: 100%;
 min-height: 300px;
