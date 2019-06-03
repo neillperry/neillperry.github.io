@@ -38,13 +38,12 @@ text-align: center;
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 100%;
 }
 
 
