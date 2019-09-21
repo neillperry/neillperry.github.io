@@ -1,0 +1,99 @@
+
+/* NAV BAR AVATAR */
+.inset {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,0.6),
+    0 1px 1px rgba(0,0,0,0.1);
+  background-color: transparent !important;
+  z-index: 999;
+}
+
+.inset img {
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+  z-index: 998;
+}
+
+.jumbotron {
+background-image: url('img/rodeo.jpg');
+background-color: black;
+background-size: cover;
+min-height: 300px;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+}
+
+/* PROJECTS - Title and Live Code links */
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right
+}
+
+/*  FOOTER */
+.footer {
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer ul {
+		margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+		border-top: 10px;
+		border-bottom: 3px;
+}
+
+.footer ul li {
+	display: inline-block;
+	border-left: thin solid #e6e6e6;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 0.8em;
+	color: grey;
+  overflow: hidden;
+}
+
+.footer ul li a {
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	text-decoration: none;
+}
