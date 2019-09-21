@@ -21,7 +21,7 @@
 }
 
 .jumbotron {
-background-image: url(../'img/rodeo.jpg');
+background-image: url('../img/rodeo.jpg');
 background-color: black;
 background-size: cover;
 min-height: 300px;
