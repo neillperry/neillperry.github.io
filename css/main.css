@@ -228,15 +228,15 @@ hr {
 }
 
 .jumbotron-rodeo {
-  background-image: url('/img/rodeo.jpg');
+  background-image: url('../img/rodeo.jpg');
 }
 
 .jumbotron-mantis {
-  background-image: url('/img/mantis.jpg');
+  background-image: url('../img/mantis.jpg');
 }
 
 .jumbotron-bison {
-  background-image: url('/img/bison.jpg');
+  background-image: url('../img/bison.jpg');
 }
 
 /* Content */
