@@ -4,7 +4,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
  html {
    font-family: sans-serif;
    line-height: 1.15;
@@ -220,15 +219,26 @@ hr {
 }
 
 .jumbotron {
-background-image: url('../img/rodeo.jpg');
-background-color: black;
-background-size: cover;
-min-height: 300px;
-color: white;
-font-weight: bold;
-text-align: center;
+  background-image: url('/img/mantis.jpg');
+  background-color: black;
+  background-size: cover;
+  min-height: 300px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
+.jumbotron-rodeo {
+  background-image: url('/img/rodeo.jpg');
+}
+
+.jumbotron-mantis {
+  background-image: url('/img/mantis.jpg');
+}
+
+.jumbotron-bison {
+  background-image: url('/img/bison.jpg');
+}
 
 /* Content */
 .content {
