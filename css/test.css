@@ -1,0 +1,47 @@
+/*!
+
+EXPERIMENTAL CSS FOR ALTERNATIVE LAYOUT
+(this will not end well)
+
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+/*
+
+So the plan is to revive my old website layout using Sarah Drasner's grid
+layout tool. That was probably the piece that was missing, or at least among the
+most important.
+
+Future reference: https://cssgrid-generator.netlify.com/
+
+*/
+
+ .parent {
+ display: grid;
+ grid-template-columns: 8% repeat(3, 1fr) 8%;
+ grid-template-rows: 50px repeat(3, 1fr) 30px;
+ grid-column-gap: 0px;
+ grid-row-gap: 0px;
+ .div1 { grid-area: 2 / 2 / 4 / 4; }
+ .div2 { grid-area: 4 / 2 / 5 / 3; }
+ .div3 { grid-area: 4 / 3 / 5 / 4; }
+ .div4 { grid-area: 4 / 4 / 5 / 5; }
+ .div5 { grid-area: 2 / 4 / 3 / 5; }
+ .div6 { grid-area: 3 / 4 / 4 / 5; }
+ }
+
+ /*
+HTML
+<div class="parent">
+<div class="div1"> </div>
+<div class="div2"> </div>
+<div class="div3"> </div>
+<div class="div4"> </div>
+<div class="div5"> </div>
+<div class="div6"> </div>
+</div>
+ */
