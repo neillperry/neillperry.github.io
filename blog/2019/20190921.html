@@ -26,24 +26,35 @@
 	<link rel="stylesheet" href="../../css/test.css" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-	<body>
+<body>
+	<!-- COLLAPSIBLE NAV BAR -->
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+		<!-- Brand -->
+		<a class="navbar-brand" href="https://neillperry.com/"><div class="inset"><img src="../../img/Avatar_noodles.jpg"></div></a>
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<div id="masthead">
-			<!---  <img src="/photos/masthead.png" alt="Masthead" style="width:578px;height:96px;"> -->
-			<h1 id="nameplate">Neill Perry</h1>
-			<p id="date"></p>
-			<script type="text/javascript" src="date.js"></script>
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="https://neillperry.com/about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://neillperry.com/blog.html">Blog</a>
+				</li>
+			</ul>
 		</div>
-		<nav class="col-10">
-		  <li><a href="http://neillperry.github.io/">Home</a></li>
-		  <li><a href="http://neillperry.github.io/about.html">About</a></li>
-		  <li><a href="http://neillperry.github.io/portfolio.html">Portfolio</a></li>
-		  <li><a href="http://neillperry.github.io/blog.html">Blog</a></li>
-		</nav>
+	</nav>
 
-			<div id="maincontent" class="col-10">
-
+	<!-- Blog Post -->
+	<main class="container col-8">
+		<div class="contanier-fluid text-justify content">
 				<figure id="photo">
 					<img src="/photos/bisonHerd.jpg" alt="Photo of bison" style="width:600px;height:400px;">
 		      <figcaption>By Neill Perry</figcaption>
@@ -60,17 +71,16 @@
 							 <li>Implement Jekyll!!</li>
 						</ul>
 				</div>
-
 			</div>
+		</main>
 
-			<div class="footer">
+			<footer>
 				<ul>
 					<li>&#169; 2020 Neill Perry</li>
-					<li><a data-email="neill.perry@flatironschool.com" href="mailto:neill.perry@flatironschool.com">Contact</a></li>
-					<li><a href="http://neillperry.github.io/privacy.html">Privacy</a></li>
-					<li><a href="http://neillperry.github.io/credits.html">Site Credits</li>
-					<li>Careers</li>
+					<li><a href="https://twitter.com/neillperry/" target="_blank">Twitter</a></li>
+					<li><a href="https://github.com/neillperry" target="_blank">GitHub</a></li>
+					<li><a href="https://neillperry.com/credits.html">Credits</li>
 				</ul>
-			</div>
+			</footer>
 		</body>
 	</html>
