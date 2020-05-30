@@ -1,100 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>NP: Photos</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="author" content="Neill Perry">
-	<meta name="description" content="Neill Perry's Personal Website">
 
-	<!-- OpenGrap h tags -->
-	<meta property="og:site_name" content="Neill's Website">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Neill's Website">
-	<meta property="og:url" content="https://neillperry.com">
-	<meta property="og:description" content="Neill Perry's Personal Website">
+	<head>
+		<meta charset="utf-8">
+		<title>NP: Photos</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="author" content="Neill Perry">
+		<meta name="description" content="Neill Perry's Personal Website">
 
-	<!-- Twitter Cards -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@neillperry">
-	<meta name="twitter:creator" content="@neillperry">
-	<meta name="twitter:domain" content="https://neillperry.com">
-	<meta rel="canonical" href="https://neillperry.com/">
+		<!-- OpenGrap h tags -->
+		<meta property="og:site_name" content="Neill's Website">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Neill's Website">
+		<meta property="og:url" content="https://neillperry.com">
+		<meta property="og:description" content="Neill Perry's Personal Website">
 
-	<link rel="stylesheet" href="css/main.css" type="text/css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<!-- Twitter Cards -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@neillperry">
+		<meta name="twitter:creator" content="@neillperry">
+		<meta name="twitter:domain" content="https://neillperry.com">
+		<meta rel="canonical" href="https://neillperry.com/">
 
-</head>
-<body>
+		<link rel="stylesheet" href="css/album.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	</head>
 
-<!-- COLLAPSIBLE NAV BAR -->
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="https://neillperry.com/"><div class="inset"><img src="img/Avatar_noodles.jpg"></div></a>
+	<body>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+		<!-- COLLAPSIBLE NAV BAR -->
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- Brand -->
+			<a class="navbar-brand" href="https://neillperry.com/">
+				<div class="inset"><img src="img/Avatar_noodles.jpg"></div>
+			</a>
 
-	<!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="https://neillperry.com/blog.html">Writing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://neillperry.com/projects.html">Projects</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+			<!-- Toggler/collapsibe Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-<!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid">
-	<div class="container text-center center-block"><h1>Photos</h1>
-  </div>
-</div>
-
-<main class="container-fluid content col-10 center-block">
-
-
-	<!-- Responsive Album-->
-	<div class="row">
-		<div class="column container-fluid content col-10 center-block">
-			<img class="img-responsive" src="img/thumbnails/bison_1920.jpg" alt="Bison">
-		</div>
-	</div>
-	<div class="row">
-		<div class="column container-fluid content col-10 center-block">
-			<img class="img-responsive" src="img/thumbnails/canyon_1920.jpg" alt="Antelope Canyon">
-		</div>
-	</div>
-	<div class="row">
-		<div class="column container-fluid content col-10 center-block">
-			<img class="img-responsive" src="img/thumbnails/mantis_1920.jpg" alt="Mantis">
-		</div>
-	</div>
-
-
-</main>
-			<!-- note look up responsive image gallery grid on W3 and responsive lightbox gallery using Bootstrap -->
-			<!-- Portfolio wiht Filtering from W3 -->
-
-			<!-- Footer links -->
-			<footer>
-				<ul>
-					<li>&#169; 2020 Neill Perry</li>
-					<li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-					<li><a href="https://github.com/neillperry" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-					<li><a href="https://neillperry.com/credits.html">Credits</li>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="https://neillperry.com/blog.html">Writing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://neillperry.com/projects.html">Projects</a>
+					</li>
 				</ul>
-			</footer>
-		</body>
-	</html>
+			</div>
+		</nav>
+
+		<!-- Jumbotron -->
+		<section class="jumbotron jumbotron-fluid">
+			<div class="container text-center center-block">
+				<h1>Photos</h1>
+			</div>
+		</section>
+
+		<main role="main" class="container-fluid content col-10 center-block">
+
+			<div class="album py-5 bg-light">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="https://neillperry.com/img/mantis2.jpg" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="https://neillperry.com/img/mantis2.jpg" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+								<div class="card-body">
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+											<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										</div>
+										<small class="text-muted">9 mins</small>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<!-- Footer links -->
+		<footer>
+			<ul>
+				<li>&#169; 2020 Neill Perry</li>
+				<li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+				<li><a href="https://github.com/neillperry" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+				<li><a href="https://neillperry.com/credits.html">Credits</li>
+			</ul>
+		</footer>
+	</body>
+
+</html>
