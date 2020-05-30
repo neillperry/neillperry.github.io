@@ -7,6 +7,8 @@
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
   background-color: #fff;
+  background-image: url('../img/rodeo.jpg');
+}
 }
 @media (min-width: 768px) {
   .jumbotron {
