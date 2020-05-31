@@ -402,9 +402,6 @@ footer ul li {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.25rem 0.25rem;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .navbar > .container,
