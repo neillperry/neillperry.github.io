@@ -216,6 +216,7 @@ hr {
     0 1px 1px rgba(0,0,0,0.1);
   background-color: transparent !important;
   z-index: 999;
+  margin-bottom: 0.25rem;
 }
 
 .inset img {
@@ -316,7 +317,7 @@ footer ul li {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 0.5rem;
+  padding: 0.25rem 0.25rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -463,6 +464,7 @@ footer ul li {
   flex-grow: 1;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.25rem;
 }
 
 .navbar-toggler {
