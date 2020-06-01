@@ -1,196 +1,281 @@
 	<!-- O
 Links for modal photo galleries:
 
+https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/
+
+1 - https://codepen.io/peterbenoit/pen/XzVQZw
+
 https://getbootstrap.com/docs/4.1/components/modal/
 
 https://stackoverflow.com/questions/36679788/bootstrap-modal-photo-gallery
 
 https://alt-web.com/TUTORIALS/?id=bootstrap_modal_carousel_gallery
 
-https://codepen.io/peterbenoit/pen/XzVQZw
+
 
  -->
 
 	<!DOCTYPE html>
 	<html lang="en">
 
-	  <head>
-	    <meta charset="utf-8">
-	    <title>NP: Photos</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	    <meta name="mobile-web-app-capable" content="yes">
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-	    <meta name="author" content="Neill Perry">
-	    <meta name="description" content="Neill Perry's Personal Website">
+		<head>
+			<meta charset="utf-8">
+			<title>NP: Photos</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+			<meta name="mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+			<meta name="author" content="Neill Perry">
+			<meta name="description" content="Neill Perry's Personal Website">
 
-	    <!-- OpenGrap h tags -->
-	    <meta property="og:site_name" content="Neill's Website">
-	    <meta property="og:type" content="website">
-	    <meta property="og:title" content="Neill's Website">
-	    <meta property="og:url" content="https://neillperry.com">
-	    <meta property="og:description" content="Neill Perry's Personal Website">
+			<!-- OpenGrap h tags -->
+			<meta property="og:site_name" content="Neill's Website">
+			<meta property="og:type" content="website">
+			<meta property="og:title" content="Neill's Website">
+			<meta property="og:url" content="https://neillperry.com">
+			<meta property="og:description" content="Neill Perry's Personal Website">
 
-	    <!-- Twitter Cards -->
-	    <meta name="twitter:card" content="summary">
-	    <meta name="twitter:site" content="@neillperry">
-	    <meta name="twitter:creator" content="@neillperry">
-	    <meta name="twitter:domain" content="https://neillperry.com">
-	    <meta rel="canonical" href="https://neillperry.com/">
+			<!-- Twitter Cards -->
+			<meta name="twitter:card" content="summary">
+			<meta name="twitter:site" content="@neillperry">
+			<meta name="twitter:creator" content="@neillperry">
+			<meta name="twitter:domain" content="https://neillperry.com">
+			<meta rel="canonical" href="https://neillperry.com/">
 
-	    <link rel="stylesheet" href="css/main.css" type="text/css">
-	    <link rel="stylesheet" href="css/album.css" type="text/css">
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/main.css" type="text/css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-	  </head>
+		</head>
 
-	  <body>
+		<body>
 
-	    <!-- COLLAPSIBLE NAV BAR -->
-	    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-	      <!-- Brand -->
-	      <a class="navbar-brand" href="https://neillperry.com/">
-	        <div class="inset"><img src="img/Avatar_noodles.jpg"></div>
-	      </a>
+			<!-- COLLAPSIBLE NAV BAR -->
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+				<!-- Brand -->
+				<a class="navbar-brand" href="https://neillperry.com/">
+					<div class="inset"><img src="img/Avatar_noodles.jpg"></div>
+				</a>
 
-	      <!-- Toggler/collapsibe Button -->
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-	        <span class="navbar-toggler-icon"></span>
-	      </button>
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-	      <!-- Navbar links -->
-	      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-	        <ul class="navbar-nav">
-	          <li class="nav-item">
-	            <a class="nav-link" href="https://neillperry.com/blog.html">Writing</a>
-	          </li>
-	          <li class="nav-item">
-	            <a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
-	          </li>
-	          <li class="nav-item">
-	            <a class="nav-link" href="https://neillperry.com/projects.html">Projects</a>
-	          </li>
-	        </ul>
-	      </div>
-	    </nav>
+				<!-- Navbar links -->
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="https://neillperry.com/blog.html">Writing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://neillperry.com/projects.html">Projects</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
-	    <!-- Jumbotron -->
-	    <section class="jumbotron jumbotron-fluid">
-	      <div class="container text-center center-block">
-	        <h1>Photos</h1>
-	      </div>
-	    </section>
+			<!-- Jumbotron -->
+			<section class="jumbotron jumbotron-fluid jumbotron-mantis">
+				<div class="container text-center center-block">
+					<h1>Photos</h1>
+				</div>
+			</section>
 
-	    <main role="main" class="container-fluid content col-10 center-block">
-
-	      <div class="container mt-4">
-	        <div class="row">
-	          <div class="col-md-4">
-	            <div class="ba-0">
-	              <img alt="Card image cap" class="card-img-top" src="https://neillperry.com/img/mantis2.jpg">
-	              <div class="card-body">
-	                <h4 class="card-title">GoPro HERO6: This Is the Moment in 4K
-	                </h4>
-	                <p class="card-text">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. <a href="#">#GoPro</a> <a href="#">#GoProHERO6</a> </p><a class="btn btn-primary" data-target="#modalIMG"
-	                  data-toggle="modal" href="https://neillperry.com/img/mantis2.jpg" ">View Image</a>
-	              </div>
-	            </div>
-
-	          </div>
-	          <div class=" col-md-4">
-	                  <a href="https://neillperry.com/img/mantis2.jpg" data-target="#modalIMG" data-toggle="modal" class="color-gray-darker c6 td-hover-none">
-	                    <div class="ba-0 ds-1">
-	                      <img alt="Card image cap" class="card-img-top" src="https://neillperry.com/img/mantis2.jpg" />
-	                      <div class="card-body">
-	                        <h4 class="card-title color-gray-darker">GoPro HERO6: This Is the Moment in 4K</h4>
-	                        <p class="card-text color-gray-darker">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. #GoPro #GoProHERO6</p>
-	                      </div>
-	                    </div>
-	                  </a>
-	              </div>
-	              <div class="col-md-4">
-	                <a data-target="#modalIMG" data-toggle="modal" href="https://neillperry.com/img/mantis2.jpg" class="color-gray-darker td-hover-none">
-	                  <div class="ba-0 tp-s">
-	                    <img alt="Card image cap" class="card-img-top" src="https://neillperry.com/img/mantis2.jpg">
-	                    <div class="card-body">
-	                      <h4 class="card-title color-gray-darker">GoPro HERO6: This Is the Moment in 4K
-	                      </h4>
-	                      <p class="card-text color-gray-darker">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. #GoPro #GoProHERO6</p>
-	                    </div>
-	                  </div>
-	                </a>
-	              </div>
-	            </div>
+			<main role="main" class="container-fluid content col-10 center-block">
 
 
+				<div class="container mt-4">
+					<div class="row">
+
+						<div class="col-md-4">
+							<a data-target="#modalIMG" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+								<div class="ba-0 tp-s">
+									<img id="myImg" class="card-img-top" src="https://neillperry.com/img/bison.jpg" alt="Snow">
+									<div class="card-body">
+										<h4 class="card-title color-gray-darker">GoPro HERO6: This Is the Moment in 4K
+										</h4>
+										<p class="card-text color-gray-darker">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. #GoPro #GoProHERO6</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-md-4">
+							<a data-target="#modalIMG" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+								<div class="ba-0 tp-s">
+									<img id="myImg" class="card-img-top" src="https://neillperry.com/img/canyon.jpg" alt="Snow">
+									<div class="card-body">
+										<h4 class="card-title color-gray-darker">GoPro HERO6: This Is the Moment in 4K
+										</h4>
+										<p class="card-text color-gray-darker">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. #GoPro #GoProHERO6</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-md-4">
+							<a data-target="#modalIMG" data-toggle="modal" href="#" class="color-gray-darker td-hover-none">
+								<div class="ba-0 tp-s">
+									<img id="myImg" class="card-img-top" src="https://neillperry.com/img/mantis2.jpg" alt="Snow">
+									<div class="card-body">
+										<h4 class="card-title color-gray-darker">GoPro HERO6: This Is the Moment in 4K
+										</h4>
+										<p class="card-text color-gray-darker">Live the moment. Capture the moment. Share the moment. HERO6 is here, and the moment is now. #GoPro #GoProHERO6</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<hr>
+
+				<!-- MODAL GOES HERE -->
+
+				<!-- Trigger the Modal -->
 
 
-	          </div>
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
 
-	          <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
-	            <div class="modal-dialog modal-lg" role="document">
-	              <div class="modal-content">
-	                <div class="modal-body mb-0 p-0">
-	                  <img src="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" alt="" style="width:100%">
-	                </div>
-	                <div class="modal-footer">
-	                  <div><a href="https://i3.ytimg.com/vi/vr0qNXmkUJ8/maxresdefault.jpg" target="_blank">Download</a></div>
-	                  <button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
+					<!-- The Close Button -->
+					<span class="close">&times;</span>
+
+					<!-- Modal Content (The Image) -->
+					<img class="modal-content" id="img01">
+
+					<!-- Modal Caption (Image Text) -->
+					<div id="caption"></div>
+				</div>
 
 
 
-	          <style>
-	            .modal,
-	            body.modal-open {
-	              padding-right: 0 !important
-	            }
+				<style>
+					/* Style the Image Used to Trigger the Modal */
+					#myImg {
+						border-radius: 5px;
+						cursor: pointer;
+						transition: 0.3s;
+					}
 
-	            body.modal-open {
-	              overflow: auto
-	            }
+					#myImg:hover {
+						opacity: 0.7;
+					}
 
-	            body.scrollable {
-	              overflow-y: auto
-	            }
+					/* The Modal (background) */
+					.modal {
+						display: none;
+						/* Hidden by default */
+						position: fixed;
+						/* Stay in place */
+						z-index: 1;
+						/* Sit on top */
+						padding-top: 100px;
+						/* Location of the box */
+						left: 0;
+						top: 0;
+						width: 100%;
+						/* Full width */
+						height: 100%;
+						/* Full height */
+						overflow: auto;
+						/* Enable scroll if needed */
+						background-color: rgb(0, 0, 0);
+						/* Fallback color */
+						background-color: rgba(0, 0, 0, 0.9);
+						/* Black w/ opacity */
+					}
 
-	            .modal-footer {
-	              display: flex;
-	              justify-content: flex-start;
+					/* Modal Content (Image) */
+					.modal-content {
+						margin: auto;
+						display: block;
+						width: 80%;
+						max-width: 700px;
+					}
 
-	              .btn {
-	                position: absolute;
-	                right: 10px;
-	              }
-	            }
-	          </style>
+					/* Caption of Modal Image (Image Text) - Same Width as the Image */
+					#caption {
+						margin: auto;
+						display: block;
+						width: 80%;
+						max-width: 700px;
+						text-align: center;
+						color: #ccc;
+						padding: 10px 0;
+						height: 150px;
+					}
+
+					/* Add Animation - Zoom in the Modal */
+					.modal-content,
+					#caption {
+						animation-name: zoom;
+						animation-duration: 0.6s;
+					}
+
+					@keyframes zoom {
+						from {
+							transform: scale(0)
+						}
+
+						to {
+							transform: scale(1)
+						}
+					}
+
+					/* The Close Button */
+					.close {
+						position: absolute;
+						top: 15px;
+						right: 35px;
+						color: #f1f1f1;
+						font-size: 40px;
+						font-weight: bold;
+						transition: 0.3s;
+					}
+
+					.close:hover,
+					.close:focus {
+						color: #bbb;
+						text-decoration: none;
+						cursor: pointer;
+					}
+
+					/* 100% Image Width on Smaller Screens */
+					@media only screen and (max-width: 700px) {
+						.modal-content {
+							width: 100%;
+						}
+					}
+				</style>
 
 
-	          <script>
-	            $('a a').remove();
+				<script>
+					function switchStyle() {
+						if (document.getElementById('styleSwitch').checked) {
+							document.getElementById('gallery').classList.add("custom");
+							document.getElementById('exampleModal').classList.add("custom");
+						} else {
+							document.getElementById('gallery').classList.remove("custom");
+							document.getElementById('exampleModal').classList.remove("custom");
+						}
+					}
+				</script>
 
-	            document.documentElement.setAttribute("lang", "en");
-	            document.documentElement.removeAttribute("class");
+			</main>
 
-	            axe.run(function(err, results) {
-	              console.log(results.violations);
-	            });
-	          </script>
-
-	    </main>
-
-	    <!-- Footer links -->
-	    <footer>
-	      <ul>
-	        <li>&#169; 2020 Neill Perry</li>
-	        <li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-	        <li><a href="https://github.com/neillperry" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-	        <li><a href="https://neillperry.com/credits.html">Credits</li>
-	      </ul>
-	    </footer>
-	  </body>
+			<!-- Footer links -->
+			<footer>
+				<ul>
+					<li>&#169; 2020 Neill Perry</li>
+					<li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+					<li><a href="https://github.com/neillperry" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+					<li><a href="https://neillperry.com/credits.html">Credits</li>
+				</ul>
+			</footer>
+		</body>
 
 	</html>
