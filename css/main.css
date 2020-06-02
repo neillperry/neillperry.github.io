@@ -238,6 +238,11 @@ hr {
   background-image: url('../img/rodeo.jpg');
 }
 
+.jumbotron-city {
+  background-image: url('../img/bridge.jpg');
+}
+
+
 .jumbotron-mantis {
   background-image: url('../img/mantis.jpg');
 }
