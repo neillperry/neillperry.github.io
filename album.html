@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- website to rotate photos: https://raw.pics.io/rotate-image# -->
 
 	<head>
 		<meta charset="utf-8">
@@ -28,6 +27,7 @@
 
 		<link rel="stylesheet" href="css/main.css" type="text/css">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -253,9 +253,9 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top" src="https://neillperry.com/img/UWS_vertical.JPG" alt="Card image cap">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/UWS_vertical.JPG" alt="Card image cap">
 								<div class="card-body">
-									<p class="card-text">Famous canyon in black and white</p>
+									<p class="card-text">Urban Summer Sunset</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="btn-group">
 											<button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://neillperry.com/img/UWS_vertical.JPG" target="_blank">Open</a></button>
@@ -267,9 +267,9 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top" src="https://neillperry.com/img/flower_vertical.JPG" alt="Card image cap">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/flower_vertical.JPG" alt="Card image cap">
 								<div class="card-body">
-									<p class="card-text">Central Park in the Spring</p>
+									<p class="card-text">Late Spring</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="btn-group">
 											<button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://neillperry.com/img/flower_vertical.JPG" target="_blank">Open</a></button>
@@ -279,14 +279,14 @@
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4 photo-card">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top" src="https://neillperry.com/img/snow_vertical.JPG" alt="Card image cap">
+								<img class="card-img-top photo-link myImg" src="https://neillperry.com/img/snow_vertical.JPG" alt="Snow">
 								<div class="card-body">
-									<p class="card-text">From a bridge at night</p>
+									<p class="card-text">Snowy Christmas Day in Washington</p>
 									<div class="d-flex justify-content-between align-items-center">
 										<div class="btn-group">
-											<button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://neillperry.com/img/snow_vertical.JPG" target="_blank">Open</a></button>
+											<button type="button" id="myBtn" class="btn btn-sm btn-outline-secondary">Expand</button>
 										</div>
 									</div>
 								</div>
@@ -297,6 +297,28 @@
 					</div>
 				</div>
 			</div>
+
+
+			<!-- Trigger the Modal -->
+
+			<!-- The Modal -->
+			<div id="myModal" class="custom-modal">
+
+				<!-- The Close Button -->
+				<span class="modal-close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+				<!-- Modal Content (The Image) -->
+				<img class="custom-modal-content" id="img01">
+
+				<!-- Modal Caption (Image Text) -->
+				<div id="caption"></div>
+			</div>
+
+
+
+
+
+
 
 		</main>
 
@@ -309,6 +331,7 @@
 				<li><a href="https://neillperry.com/credits.html">Credits</li>
 			</ul>
 		</footer>
+		<script content-type:"text/js" src="script.js"></script>
 	</body>
 
 </html>
