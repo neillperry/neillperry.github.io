@@ -875,6 +875,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
     max-width: 700px;
 }
 
+.custom-horz-modal-content {
+    margin: auto;
+    display: block;
+    width: 55%;
+    max-width: 700px;
+}
+
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
     margin: auto;

@@ -64,7 +64,7 @@
 		<!-- Jumbotron -->
 		<section class="jumbotron jumbotron-fluid jumbotron-city">
 			<div class="container text-center center-block">
-				<h1>Photos</h1>
+				<h1>Clickable Photos</h1>
 			</div>
 		</section>
 
@@ -78,7 +78,7 @@
 							<div class="card mb-4 box-shadow">
 								<img class="card-img-top myImg" src="https://neillperry.com/img/mantis2.jpg" alt="Photo of Praying Mantis on a Wall">
 								<div class="card-body">
-									<small class="card-text">Praying mantis does its thing</small>
+									<p class="card-text">Praying mantis does its thing</p>
 								</div>
 							</div>
 						</div>
@@ -96,7 +96,7 @@
 							<div class="card mb-4 box-shadow">
 								<img class="card-img-top myImg" src="https://neillperry.com/img/canyon.jpg" alt="Photo of Antelope Canyon">
 								<div class="card-body">
-									<p class="card-text">Canyon of Navajo sand stone</p>
+									<p class="card-text">Navajo sand stone of Antelope Canyon</p>
 								</div>
 							</div>
 						</div>
@@ -135,7 +135,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/puppy.jpg" alt="Bassett hound puppy walks along the road">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/puppy.jpg" alt="Bassett hound puppy meanders along the road">
 								<div class="card-body">
 									<p class="card-text">Neighborhood ne'er-do-well makes her rounds</p>
 								</div>
@@ -144,7 +144,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/ribbon.jpg" alt="Photo of a goat eating its second place ribbon">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/ribbon.jpg" alt="Goat eats its second place ribbon">
 								<div class="card-body">
 									<p class="card-text">Sore loser munches on her participation prize</p>
 								</div>
@@ -153,7 +153,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/rodeo.jpg" alt="Weekend night in small Western town">
+								<img class="card-img-top myHorzImg" src="https://neillperry.com/img/rodeo.jpg" alt="Night at the rodeo in small Western town">
 								<div class="card-body">
 									<p class="card-text">Weekend night in small Western town</p>
 								</div>
@@ -164,7 +164,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/canyon_BW.JPG" alt="Black and white picture of Antelope Canyon">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/canyon_BW.JPG" alt="Antelope Canyon in northern Arizona">
 								<div class="card-body">
 									<p class="card-text">Famous canyon in black and white</p>
 								</div>
@@ -173,7 +173,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/park_vertical.JPG" alt="Central Park in the spring">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/park_vertical.JPG" alt="Central Park (JKO Reservoir) in the spring">
 								<div class="card-body">
 									<p class="card-text">Central Park in the Spring (JKO Reservoir)</p>
 								</div>
@@ -182,7 +182,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/bridge_vertical.JPG" alt="Photo of Lower Manhattan from the Brooklyn Bridge">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/bridge_vertical.JPG" alt="Lower Manhattan at night from the Brooklyn Bridge">
 								<div class="card-body">
 									<p class="card-text">From the Brooklyn Bridge at night</p>
 								</div>
@@ -193,7 +193,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myImg" src="https://neillperry.com/img/UWS_vertical.JPG" alt="Photo of Upper West Side buildings at Sunset">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/UWS_vertical.JPG" alt="Upper West Side at twilight">
 								<div class="card-body">
 									<p class="card-text">Urban Summer Sunset</p>
 								</div>
@@ -237,6 +237,18 @@
 				<div id="caption"></div>
 			</div>
 
+			<!-- The Modal -->
+			<div id="myHorizontalModal" class="horz-custom-modal">
+
+				<!-- The Close Button -->
+				<span class="modal-close" onclick="document.getElementById('myHorizontalModal').style.display='none'">&times;</span>
+
+				<!-- Modal Content (The Image) -->
+				<img class="custom-horz-modal-content" id="img02">
+
+				<!-- Modal Caption (Image Text) -->
+				<div id="caption"></div>
+			</div>
 
 
 
