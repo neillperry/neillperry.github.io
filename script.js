@@ -20,19 +20,3 @@ let span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
-
-// HORIZONTAL MODAL
-// Get the modal
-let horizontalmodal = document.getElementById('myHorizontalModal');
-
-let imgHorz = $('.myHorzImg');
-let modalHorzImg = $("#imgHorz01");
-let horzCaptionText = document.getElementById("caption");
-
-$('.myHorzImg').click(function(){
-    modal.style.display = "block";
-    let newSrc = this.src;
-    modalImg.attr('src', newSrc);
-    captionText.innerHTML = this.alt;
-});

@@ -156,7 +156,7 @@
 
 						<div class="col-md-4">
 							<div class="card mb-4 box-shadow">
-								<img class="card-img-top myHorzImg" src="https://neillperry.com/img/rodeo.jpg" alt="Night at the rodeo in small Western town">
+								<img class="card-img-top myImg" src="https://neillperry.com/img/rodeo.jpg" alt="Night at the rodeo in small Western town">
 								<div class="card-body">
 									<p class="card-text">Weekend night in small Western town</p>
 								</div>
@@ -231,7 +231,10 @@
 			<div id="myModal" class="custom-modal">
 
 				<!-- The Close Button -->
-				<span class="modal-close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+				<button type="button" class="close" aria-label="Close" name="button">
+					<span class="modal-close" aria-hidden="true" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+				</button>
+
 
 				<!-- Modal Content (The Image) -->
 				<img class="custom-modal-content" id="img01">
@@ -239,23 +242,6 @@
 				<!-- Modal Caption (Image Text) -->
 				<div id="caption"></div>
 			</div>
-
-			<!-- The Modal -->
-			<div id="myHorizontalModal" class="horz-custom-modal">
-
-				<!-- The Close Button -->
-				<span class="modal-close" onclick="document.getElementById('myHorizontalModal').style.display='none'">&times;</span>
-
-				<!-- Modal Content (The Image) -->
-				<img class="custom-horz-modal-content" id="img02">
-
-				<!-- Modal Caption (Image Text) -->
-				<div id="caption"></div>
-			</div>
-
-
-
-
 
 		</main>
 

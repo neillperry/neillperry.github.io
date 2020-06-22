@@ -197,7 +197,7 @@ hr {
   margin-top: 50px;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
-  padding: 15px 50px; 
+  padding: 15px 50px;
 }
 
 .blockquote {
@@ -690,16 +690,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
 .custom-modal-content {
     margin: auto;
     display: block;
-    width: 35%;
+    width: 40%;
     max-width: 700px;
 }
 
-.custom-horz-modal-content {
-    margin: auto;
-    display: block;
-    width: 55%;
-    max-width: 700px;
-}
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
@@ -734,8 +728,8 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
 /* The Close Button */
 .modal-close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 25px;
+    right: 55px;
     color: #fff;
     font-size: 60px;
     font-weight: bold;
