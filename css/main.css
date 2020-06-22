@@ -193,6 +193,12 @@ hr {
   margin-left: -15px;
 }
 
+.sight-container {
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 15px 50px; 
+}
 
 .blockquote {
   margin-bottom: 1rem;
