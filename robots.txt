@@ -1,13 +1,73 @@
-User-agent: Twitterbot
+# <AI bots, get off my lawn>
+# I stole this robots.txt file from Geregely's techpays.com
+
+# GPTBot is OpenAI's web crawler
+User-agent: GPTBot
 Disallow: /
 
+# Google Bard & Gemini
 User-agent: Google-Extended
 Disallow: /
 
+# ChatGPT-User is OpenAI's web crawler
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl bot
 User-agent: CCBot
 Disallow: /
 
-User-agent: GPTBot
+# PiplBot is PiplBot's web crawler
+User-agent: PiplBot
+Disallow: /
+
+# anthropic-ai is Anthropic's web crawler
+User-agent: anthropic-ai
+Disallow: /
+
+# Claude-Web is Claude's web crawler
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# TurnitinBot is Turnitin's web crawler
+User-agent: TurnitinBot
+Disallow: /
+
+# PetalBot is Petal's web crawler
+User-agent: PetalBot
+Disallow: /
+
+# MoodleBot is Moodl's web crawler
+User-agent: MoodleBot
+Disallow: /
+
+# magpie-crawler is Brandwatch.com's web crawler
+User-agent: magpie-crawler
+Disallow: /
+
+# Meta 
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# DotBot is OpenSiteExplorer's web crawler
+User-agent: DotBot
+Disallow: /
+
+# Ahrefs web crawler
+User-agent: AhrefsBot
+Disallow: /
+
+# Semrush web crawler
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: Twitterbot
 Disallow: /
 
 User-agent: omgili
@@ -16,23 +76,5 @@ Disallow: /
 User-agent: omgilibot
 Disallow: /
 
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: PiplBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
 User-agent: PerplexityBot
-Disallow: /
-
-User-agent: *
 Disallow: /
