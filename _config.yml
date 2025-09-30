@@ -2,3 +2,15 @@ title: Neill's Website
 description: Personal website - blog, album, reading list
 url: "https://www.neillperry.com"
 baseurl: ""
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Neill Perry"
