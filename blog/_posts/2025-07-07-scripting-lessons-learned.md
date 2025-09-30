@@ -1,4 +1,13 @@
+---
+layout: post
+title: Scripting Lessons
+date: 2025-07-07
+summary: Daily coding challenges flex the brain. Here are some notes from my week of coding.
+---
+
+
 # Scripting
+**July 7, 2025**
 
 I attempted [Cassidoo's coding interview question of the week](https://buttondown.com/cassidoo/archive/it-takes-courage-to-grow-up-and-become-who-you).
 
