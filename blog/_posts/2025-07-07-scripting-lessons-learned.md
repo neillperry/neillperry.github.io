@@ -2,6 +2,7 @@
 layout: post
 title: Scripting Lessons
 date: 2025-07-07
+regular_date: July 7, 2025
 summary: Daily coding challenges flex the brain. Here are some notes from my week of coding.
 ---
 
@@ -12,12 +13,11 @@ summary: Daily coding challenges flex the brain. Here are some notes from my wee
 I attempted [Cassidoo's coding interview question of the week](https://buttondown.com/cassidoo/archive/it-takes-courage-to-grow-up-and-become-who-you).
 
 
-> Find the last non-repeating character in a given string. If all characters repeat, return an empty string.
-> 
-> Example:
->
->Input: 'candy canes do taste yummy'
->Output: 'u'
+ > Find the last non-repeating character in a given string. If all characters repeat, return an empty string.
+ > 
+ > Example:
+ > Input: 'candy canes do taste yummy'
+ > Output: 'u'
 
 
 The solution I came up with is:
