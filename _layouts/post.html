@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="post">
+	<header>
+	</header>
+	<div class="post-content">
+		{{ content }}
+	</div>
+
+	{% if page.tags %}
+	<div class="tags">
+		Tags: 
+		{% for tag in page.tags %}
+		<span class="tag">{{ tag }}</span>
+		{% endfor %}
+	</div>
+	{% endif %}
+
+</article>

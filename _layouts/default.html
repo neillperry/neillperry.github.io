@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>NP | Blog</title>
+		<title>{{ page.title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 	</head>
 
 	<body>
@@ -58,40 +59,36 @@
 						<a class="nav-link" href="https://neillperry.com/album.html">Album</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://neillperry.com/reading.html">Blog</a>
+						<a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://neillperry.com/blog.html">Blog</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://neillperry.com/projects.html">Coding</a>
 					</li>
 				</ul>
 			</div>
+
 		</nav>
 
 		<!-- Jumbotron -->
 		<div class="jumbotron jumbotron-fluid jumbotron-rodeo">
 			<div class="container text-center center-block">
-				<h1>Cybersecurity Blog</h1>
+				<h1>Neill</h1>
 			</div>
 		</div>
 
-		<main class="container col-8">
-			<div class="contanier-fluid text-justify content center-block">
-				<h4><a href="https://neillperry.com/blog/2025/20250407.html">Scripting: Lessons Learned</a></h4>
-				<p class="muted"><time datetime="2025-02-21">July 5, 2025</time></p>
-				<p class="lead">Things I learned from daily Python coding challenges.</p>
-			</div>
-
-			<div class="contanier-fluid text-justify content center-block">
-				<h4><a href="https://neillperry.com/blog/2025/20250221.html">How to Break Into Reverse Engineering / Malware Analysis</a></h4>
-				<p class="muted"><time datetime="2025-02-21">Feb 21, 2025</time></p>
-				<p class="lead">How to get started in reverse engineering and malware analysis.</p>
-			</div>
+		<main class="container-fluid col-8 center-block">
+			{{ content }}}
 		</main>
+
+		<hr>
 
 		<!-- Footer links -->
 		<footer>
 			<ul>
-			    <li>&#169 2025 Neill Perry</li>
+			    <li>&#169 {{ site.time | date '%Y'}} Neill Perry</li>
 				<li><a href="https://neillperry.com/about.html">About</li>
 				<li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">X</a></li>
 				<li><a href="https://bsky.app/profile/neillperry.com" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
