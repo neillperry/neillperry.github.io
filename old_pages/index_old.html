@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
+		<title>Neill's Site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,7 +31,7 @@
 		<meta rel="canonical" href="https://neillperry.com/">
 
 		<!-- Links to Stylesheets, Bootstrap and JavaScript libraries -->
-		<link rel="stylesheet" href="{{ site.baseurl}}/assets/css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -44,7 +44,7 @@
 		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 			<!-- Brand -->
 			<a class="navbar-brand" href="https://neillperry.com/">
-				<div class="inset"><img src="{{ site.baseurl}}/assets/img/Avatar_noodles.jpg"></div>
+				<div class="inset"><img src="img/Avatar_noodles.jpg"></div>
 			</a>
 
 			<!-- Toggler/collapsibe Button -->
@@ -56,13 +56,16 @@
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="https://neillperry.com/album">Album</a>
+						<a class="nav-link" href="https://neillperry.com/album.html">Album</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://neillperry.com/reading.html">Reading</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://neillperry.com/blog">Blog</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="https://neillperry.com/projects">Coding</a>
+						<a class="nav-link" href="https://neillperry.com/projects.html">Coding</a>
 					</li>
 				</ul>
 			</div>
@@ -72,12 +75,17 @@
 		<!-- Jumbotron -->
 		<div class="jumbotron jumbotron-fluid jumbotron-rodeo">
 			<div class="container text-center center-block">
-				<h1>{{ page.jumbotron}}</h1>
+				<h1>Neill</h1>
 			</div>
 		</div>
 
 		<main class="container-fluid col-8 center-block">
-			{{ content }}
+			<div class=" container-fluid text-justify content">
+				<p>Hello, I am a security engineer passionate about web application pentesting, malware analysis and reverse engineering, and application security.</p>
+
+				<p>I am also interested in international affairs, world history, economics and military history; these interests are reflected in my reading list. I also post photographs here, too. Enjoy. </p>
+
+			</div>
 		</main>
 
 		<hr>
@@ -85,13 +93,13 @@
 		<!-- Footer links -->
 		<footer>
 			<ul>
-			    <li>&#169; {{ site.time | date: '%Y' }} Neill Perry</li>
-				<li><a href="{{ site.url}}/about.html">About</li>
+			    <li>&#169 2025 Neill Perry</li>
+				<li><a href="https://neillperry.com/about.html">About</li>
 				<li><a href="https://twitter.com/neillperry/" target="_blank" rel="noopener noreferrer">X</a></li>
 				<li><a href="https://bsky.app/profile/neillperry.com" target="_blank" rel="noopener noreferrer">Bluesky</a></li>
 				<li><a href="https://www.linkedin.com/in/neillperry/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
 				<li><a href="https://github.com/neillperry" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-				<li><a href="{{ site.url}}/credits.html">Credits</li>
+				<li><a href="https://neillperry.com/credits.html">Credits</li>
 			</ul>
 		</footer>
 	</body>
