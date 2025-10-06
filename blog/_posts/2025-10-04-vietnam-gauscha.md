@@ -3,7 +3,8 @@ layout: post
 title: Book Review-- Vietnam - a New History 
 date: 2025-10-05
 regular_date: October 5, 2025
-summary: Christopher Goscha wrote a compelling and engaging history of Vietnam.  
+jumbotron: Book Review
+summary: Vietnam - a New History by Christopher Goscha is a compelling and engaging history of Vietnam.  
 ---
 
 {% include toc.html %}
