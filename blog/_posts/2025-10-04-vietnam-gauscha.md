@@ -9,7 +9,9 @@ summary: Vietnam - a New History by Christopher Goscha is a compelling and engag
 
 ---
 ### Jump to Section
-{::toc}
+{:.no_toc}
+* TOC
+{:toc}
 --- 
 
 Dr. [Christopher Goscha](https://en.wikipedia.org/wiki/Christopher_Goscha), a professor of history at the Université du Québec à Montréal, has written an expansive and compelling history of Vietnam.
