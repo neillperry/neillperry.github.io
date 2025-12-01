@@ -9,8 +9,8 @@ summary:  Diving into more about malware encryption, including how to recognize 
 
 <figure style="text-align:center;">
 <img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/85/5147/514785/content/arcmedia/media/images/18/2/18-0147a.gif" 
-     alt="stock photo of a Key Deer from the National Archives (identifier 166706412)" 
-     title="Key Deer"
+     alt="World War II-era public service announcment about the importance of OPSEC from the National Archives (identifier 514785)" 
+     title="World War II Poster on Keeping Secrets"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
           Searching the National Archives Catalog for secrets, one of the images that came up was that of a World War II era cartoon admonishing service members to not share secrets with vivacious women. (NAID: 514785)
@@ -84,8 +84,9 @@ The AI boom has spawned a flurry of fellowship opportunities in the AI policy sp
 
 This is career field worth watching given the explosion of AI applications.
 
+Here [is a promising blog post about NPM malware](https://www.aikido.dev/blog/the-malware-dating-guide-understanding-the-types-of-malware-on-npm).  I am tossing it here as a reminder to myself to read and blog on it later. 
 
-https://www.aikido.dev/blog/the-malware-dating-guide-understanding-the-types-of-malware-on-npm?utm_source=AppSec-Village&utm_medium=social&utm_campaign=2025sponsor
+
 
 
 

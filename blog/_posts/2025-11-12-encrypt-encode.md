@@ -4,7 +4,7 @@ title: Malware Encryption and Encoding
 date: 2025-11-12
 jumbotron: Malware Encryption and Encoding
 regular_date: November 12, 2025
-summary:  There are strings in the human heart that had better not be vibrated. Charles Dickens
+summary:  How to talk to your children about encryption (before criminals do)
 ---
 
 <figure style="text-align:center;">
@@ -35,7 +35,7 @@ Cucci offers a blurb about encoding. He says that Base64 is the most common thou
 
 I randomly looked up the difference between encoding and encyrption. This [lovely blog post](https://www.geeksforgeeks.org/computer-networks/difference-between-encryption-and-encoding/) sums it all up in a table.  TL;DR -- it all comes down to intent.  Encoding is intended to protect integrity; encryption is intended to safeguard confidentiality. The Base64 encoding standard is more advanced that a Caesar substitution cipher. So the algorithm's strength is irrelevant to the distinction. It's all about the different purposes. 
 
-Having cleared that up, let's move on to encryption
+Having cleared that up, let's move on to encryption.
 
 
 ### Tales from the Encryption
