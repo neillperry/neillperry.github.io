@@ -8,12 +8,12 @@ summary:  Diving into more about malware encryption, including how to recognize 
 ---
 
 <figure style="text-align:center;">
-<img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/85/5147/514785/content/arcmedia/media/images/18/2/18-0147a.gif" 
-     alt="black and white photograph of U.S. Marine Corps code-talker recruits being sworn in from the National Archives (identifier 295175)" 
+<img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/15/5934/593415/content/harvest/593415-07428/07428_2003_001_AC.jpg" 
+     alt="black and white photograph of Corporal Henry Bake [Bahe], Jr., (left) and Private First Class George H. Kirk, Navajo Indians serving with a Marine Signal Unit, operate a portable radio set in a clearing they've hacked in the dense jungle close behind the front lines.(identifier NAID: 532396)" 
      title="World War II Navajo Code Talkers"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
-          First 29 Navajo U.S. Marine Corps Code-Talker Recruits being Sworn in at Fort Wingate, NM (NAID: 295175)
+          Corporal Henry Bake [Bahe], Jr., (left) and Private First Class George H. Kirk, Navajo Indians serving with a Marine Signal Unit, operate a portable radio set in a clearing they've hacked in the dense jungle close behind the front lines. (NAID: 532396)
      </figcaption>
 </figure>
 
@@ -37,6 +37,47 @@ Once an analyst identifies the algorithm, the next section is to decrypt it usin
 ### My Turn at Breaking the Code
 
 I successfully completed half the decoding exercise.  After the lecture, there's an exercise.  I got the first half done using Cyber Chef and Python. For the second half of the exercise, I'll need to dive into the custom base_address function.  It doesn't look hard, but I don't have time this afternoon.  I'll finish up tomorrow night. 
+
+Update: still stuck on decrypting the second layer of the malware sample.  AI has been helpful understanding the code. 
+
+```
+psVar1 = (short * )( * local_18)(0, local_c, 0x1000, 0x40);
+```
+
+I pasted that into AI, and it suggested tha tit is a call to [VirtualAlloc](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc).
+
+
+```
+LPVOID VirtualAlloc(
+  [in, optional] LPVOID lpAddress,
+  [in]           SIZE_T dwSize,
+  [in]           DWORD  flAllocationType,
+  [in]           DWORD  flProtect
+);
+```
+
+1. 0 - NULL, let the system choose the address
+2. local_c, the size of the memory to allocate
+3. 0x1000, the MEM_COMMIT flag
+4. 0x40, the PAGE_EXECUTE_READWRITE protection
+
+The MEM_COMMIT flag "[a]llocates memory charges (from the overall size of memory and the paging files on disk) for the specified reserved memory pages. The function also guarantees that when the caller later initially accesses the memory, the contents will be zero."
+
+[PAGE_EXECUTE_READWRITE](https://learn.microsoft.com/en-us/windows/win32/Memory/memory-protection-constants) "[e]nables execute, read-only, or read/write access to the committed region of pages."
+
+The next function that I came across is a memory copy operation:
+
+```
+  for (i=0; i < local_c; i = i +1) {
+     * (undefined *)((int)psVar1 + i) = * (undefined *)(local_8 + i);
+  }
+```
+
+in the above, local_8 is the source address, and local_c is the length to copy. 
+
+in any event, I have more work to do.  I'll go back and re-watch the videos from earlier.  
+
+
 
 ### Saved Rounds
 
