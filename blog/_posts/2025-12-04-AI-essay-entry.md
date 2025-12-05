@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 2025 Burning Glass Essay Submission
+title: Artificial Intelligence and Cybersecurity
 date: 2025-12-04
-jumbotron: 2025 Burning Glass Essay Submission
+jumbotron: Artificial Intelligence and Cybersecurity
 regular_date: December 4, 2025
-summary:  My entry for the 2025 Burning Glass Institute AI Essay Competition.
+summary:  My entry for the 2025 Binding Hook AI Cybersecurity Essay Competition.
 ---
 
 <figure style="text-align:center;">
@@ -24,7 +24,9 @@ summary:  My entry for the 2025 Burning Glass Institute AI Essay Competition.
 {:toc}
 --- 
 
-**The following was my entry for the 2025 Binding Hook AI Essay Competition. I did not place, but I enjoyed researching and writing it.**
+**The following was my entry for [the 2025 Binding Hook AI Essay Competition](https://bindinghook.com/announcing-the-ai-cybersecurity-essay-prize-competition/). I did not place, but I enjoyed researching, thinking, and writing about it.**
+
+QUESTION: “How will Artificial Intelligence change cybersecurity, and what are the implications for Europe? Discuss potential strategies that policymakers can adopt to navigate these changes.” 
 
 ### An AI World Still Needs Humans
 Artificial intelligence (AI) will not replace us. Generative AI and large language models (LLM) will automate many tasks now performed by humans, but they will not replace us. As [one Estonian official observed](https://www.ria.ee/sites/default/files/documents/2024-02/Cyber-security-in-Estonia-2024.pdf), “AI can free people from drudgery, letting them focus on aspects that still require human intelligence.” AI is merely the latest iteration in a series of technological advances that realign the division of labor between man and machine. This trend also holds for cybersecurity, which has a history of relying on automation to process “[overwhelming amounts of information](https://link.springer.com/chapter/10.1007/978-3-031-15030-2_4).” There will still be a need for security engineers and analysts to collaborate with AI applications to defend networks and infrastructure.  
