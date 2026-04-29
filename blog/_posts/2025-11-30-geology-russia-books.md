@@ -10,7 +10,7 @@ summary:  Civilization exists by geological consent, subject to change without n
 <figure style="text-align:center;">
 <img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/73/9419/23941973/content/stillpix/018-aa/Box_77/Folder_658/18-AA-77-032.jpg" 
      alt="World War II-era public service announcment about the importance of OPSEC from the National Archives (identifier 23941973)" 
-     title="Granite Peak, Montana
+     title="Granite Peak, Montana"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
           Black and white photograph of Granite Peak, Montana. (NAID: 23941973)
