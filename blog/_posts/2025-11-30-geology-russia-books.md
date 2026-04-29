@@ -36,7 +36,7 @@ Dvorak pushes you out the door and onto the open road. In the prologue, he expre
 
 Somewhat unusual for a history book, it previews the near future.  Extrapolating on current trends, he outlines the future of the North American plate (goodbye, California), the Afro-eurasian plate (goodbye, Mediterranean Sea), and casually mentions that all oceans will disappear in a billion years.
 
-I cannot recommend this book enough. Stop whatever you're doing and check it out now. 
+I cannot recommend this work enough. Because of this book, I lay awake at night thinking about the Archean Eon. Stop whatever you're doing and check it out now. 
 
 ### Russia and Putin
 
@@ -44,8 +44,16 @@ Putin, by Philip Short, is a plodding tome that is as exciting as an encyclopedi
 
 [Putin's World: Russia Against the West and With the Rest by Angela Stent](https://www.hachettebookgroup.com/titles/angela-stent/putins-world/9781455533015/?lens=twelve) is the superior book, and it reinforces my belief that policy experts and histories write better books than journalists. Unlike Short, Stent wastes no time in getting right to the point. She identifies the critical features of Russian thinking and foreign policy.  
 
+> "Vladimir Putin has skillfully appealed to tsarist and Soveit nostalgia to emphasize Russia's unique place in the world and his own part in restoring Russia's rightful role as a great power."
 
+However, reliance on nostalgia makes Russia a "prisoner of its past," unable to grapple with the twenty-first century world and unwilling to make the necessary reforms. 
 
+During the 1990s, many Western thinkers believed that Russia and China would turn more democratic. For China, that belief was premised on the free market reforms of Deng Xiaoping; for Russia, that was based on the collapse of the Soviet Union and the end of Communism.  However, as Stent notes, Western observers did not appreciate the Russian people's humiliation at the loss of the Eastern Bloc countries and the Soviet Republics. 
 
+"One of the conundrums that perpetually confront anyone who studies Russia is the temptation to attribute anything the Kremlin does to the overwhelming weight of the past." This remove Russian agency from the equation.  
+
+There is a gap between Russia's sense of greatness and its capabilities to play the world role it ensvisions for itself.  
+
+"Soviet socialism turned out to bear a remarkable resemblance to the Russian tradition it pretended to transform." The lack of a strong middle class hampers democracy and freedom.  
 
 
