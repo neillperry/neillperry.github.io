@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Attention, Alignment, Reinforcement
-date: 2026-09-08
+date: 2026-09-07
 jumbotron: Attention, Alignment, Reinforcement
-regular_date: September 8, 2026
+regular_date: September 7, 2026
 summary:  Notes on things that I have learned
 ---
 
