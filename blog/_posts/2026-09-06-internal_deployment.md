@@ -4,11 +4,11 @@ title: Critique of Apollo Research
 date: 2026-09-06
 jumbotron: Response to Internal Deployment Paper
 regular_date: September 6, 2026
-summary:  Apollo Research's paper on internal deployment of frontier models .
+summary:  Apollo Research's paper on internal deployment of frontier models.
 ---
 
 <figure style="text-align:center;">
-<img src="https://catalog.archives.gov/medialive/69/4708/17470869/content/stillpix/255-grc/255_GRC_1979_00657.jpg" 
+<img src="https://catalog.archives.gov/medialz/seattle/rg-237/6087866/6087866-007-003/6087866-007-003-0001.jpg" 
      alt="a color drawing that renders a satelitte proble being deployed to investigate Haley's Comet from the National Archives (identifier 17470869)" 
      title="Probe Deployment"
      style="width:70%; height:auto;" />
