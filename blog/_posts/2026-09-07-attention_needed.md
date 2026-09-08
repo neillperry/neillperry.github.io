@@ -10,7 +10,7 @@ summary:  Notes on things that I have learned
 <figure style="text-align:center;">
 <img src="https://catalog.archives.gov/medialz/stillpix/441-gd/2011/441-GD-11-NA071/441_GD_11_NA071_JMH1089.jpg" 
      alt="a color stock photograph from the National Archives depicting some books (identifier 146150242)" 
-     title="Probe Deployment"
+     title="Books on Parade"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
           Color stock photo of books. I selected this one because this post is just reading notes on AI (NAID: 146150242)
