@@ -8,7 +8,7 @@ summary:  How to talk to your children about encryption (before criminals do)
 ---
 
 <figure style="text-align:center;">
-<img src="https://s3.amazonaws.com/NARAprodstorage/lz/stillpix/022-dp/22-DP/022-DP-08339.jpg" 
+<img src="https://catalog.archives.gov/medialz/stillpix/022-dp/22-DP/022-DP-08339.jpg" 
      alt="stock photo of a Key Deer from the National Archives (identifier 166706412)" 
      title="Key Deer"
      style="width:70%; height:auto;" />

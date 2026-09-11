@@ -8,7 +8,7 @@ summary:  Diving into more about malware encryption, including how to recognize 
 ---
 
 <figure style="text-align:center;">
-<img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/85/5147/514785/content/arcmedia/media/images/18/2/18-0147a.gif" 
+<img src="https://catalog.archives.gov/medialive/85/5147/514785/content/arcmedia/media/images/18/2/18-0147a.gif" 
      alt="World War II-era public service announcment about the importance of OPSEC from the National Archives (identifier 514785)" 
      title="World War II Poster on Keeping Secrets"
      style="width:70%; height:auto;" />
