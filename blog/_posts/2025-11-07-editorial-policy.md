@@ -8,8 +8,8 @@ summary:  You gotta crawl before you can walk. You gotta learn to wax on, wax of
 ---
 
 <figure style="text-align:center;">
-<img src="https://s3.amazonaws.com/NARAprodstorage/opastorage/live/71/2071/32207171/content/kansas-city/rg-075/285796/75-SR-6463_001.jpg" 
-     alt="stock photo of books from the National Archives (identifier 146150242)" 
+<img src="https://catalog.archives.gov/medialz/kansas-city/rg-075/285796/75-SR-6463_001.jpg" 
+     alt="black and white photograph from the National Archives of an air compressor hammer(identifier 32207171)" 
      title="Air Compressor Hammer Breaking Rock Ledge" 
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">

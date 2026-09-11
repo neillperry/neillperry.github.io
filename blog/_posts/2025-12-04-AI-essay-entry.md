@@ -8,12 +8,12 @@ summary:  My entry for the 2025 Binding Hook AI Cybersecurity Essay Competition.
 ---
 
 <figure style="text-align:center;">
-<img src="https://s3.amazonaws.com/NARAprodstorage/lz/stillpix/255-grc/Batch004/255-GRC-1985-C-01346.JPG" 
-     alt="A flow chart that will guide a lecture or discussion about artificial intelligence (identifier 514785)" 
+<img src="https://catalog.archives.gov/medialz/stillpix/255-grc/Batch004/255-GRC-1985-C-01346.JPG" 
+     alt="A flow chart that will guide a lecture or discussion about artificial intelligence (identifier 355053072)" 
      title="A colored flow chart of Artificial Intelligence"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
-          This is a flow chart for talking to your loved ones about artificial intelligence. If you don't do it, who will? (NAID: 514785)
+          This is a flow chart for talking to your loved ones about artificial intelligence. If you don't do it, who will? (NAID: 355053072)
      </figcaption>
 </figure>
 
