@@ -9,12 +9,12 @@ summary:  Updates to how education, mathematics, and software engineering are re
 ---
 
 <figure style="text-align:center;">
-<img src="https://catalog.archives.gov/medialive/52/115/6011552/content/arcmedia/legislative/clifford-berryman/2-18-1919_N-067_46_Berryman.jpg" 
-     alt="Black and white editorial cartoon about the redrawing of international borders at the Paris Peace Conference (identifier: 6011552)" 
-     title="Europe"
+<img src="https://catalog.archives.gov/medialz/stillpix/255-grc/Batch027/255-GRC-1957-C-46534.JPG" 
+     alt="Black and white photograph of a revolution engine (NAID: 354827387)" 
+     title="Revolution!! in engines"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
-          Black and white editorial cartoon about the Paris Peace Conference. (NAID: 6011552)
+          Black and white photograph of a revolution engine. (NAID: 354827387)
      </figcaption>
 </figure>
 
