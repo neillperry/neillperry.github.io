@@ -38,7 +38,7 @@ In all honesty, this is the beginning of a massive AI policy outline.
 4. "[Perceptrons: An Introduction to Computational Geometry](https://direct.mit.edu/books/monograph/3132/PerceptronsAn-Introduction-to-Computational)" by Minsky and Papert
 5. "[Learning Representations by Back-Propagating Errors](https://www.nature.com/articles/323533a0)" by Rumelhart, Hinton, and Williams
 6. "[ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)" by Krizhevsky, Sutskever, and Hinton
-7. "[Attention is All You Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)"
+7. "[Attention is All You Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)" by a bunch of AI scientists who are all now rich 
 
 ### Papers
 
