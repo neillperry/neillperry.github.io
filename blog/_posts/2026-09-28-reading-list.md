@@ -9,12 +9,12 @@ summary:  Putting all my greatest hits into a single reading list that I can ref
 ---
 
 <figure style="text-align:center;">
-<img src="https://catalog.archives.gov/medialive/62/3769/6376962/content/arcmedia/stillpix/330-cfd/1984/DF-ST-84-05780.jpeg" 
-     alt="Color photograph of two soldiers calculating artillery fire direction for a Howitzer during a military exercise in 1982 (NAID: 6376962)" 
+<img src="https://catalog.archives.gov/medialz/atlanta/rg-142/7130538/213234574/213234574-K-2421.jpg" 
+     alt="Black and white photograph of people milling about and reading (NAID: 214440502)" 
      title="Basic training flashback"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
-          Color photograph of two soldiers computing artillery firing solutions. (NAID: 6376962)
+          The people in this photograph are reading the books and articles linked in this blog post. (NAID: 214440502)
      </figcaption>
 </figure>
 

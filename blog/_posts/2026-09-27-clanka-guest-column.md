@@ -9,9 +9,9 @@ summary:  Claude submits a guest column to explain international relations theor
 ---
 
 <figure style="text-align:center;">
-<img src="https://catalog.archives.gov/medialive/62/3769/6376962/content/arcmedia/stillpix/330-cfd/1984/DF-ST-84-05780.jpeg" 
+<img src="https://catalog.archives.gov/medialive/47/2973/297347/content/arcmedia/media/images/38/4/38-0364a.gif" 
      alt="Black and white photograph of a guest house in Metlakahtla, Alaska. (NAID: 297347)" 
-     title="Revolution!! in engines"
+     title="Guest house in Alaska. You can check in any time you wish, but you can never leave"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
           For this guest column, I present to you a black and white photograph of a guest house in Metlakahtla, Alaska. (NAID: 297347)
