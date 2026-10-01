@@ -32,6 +32,7 @@ I am pursuing a part-time, distance learning International Affairs master's degr
 To this end, I asked Claude (Opus 5.5 Medium) to analyze the Ukrainian-Russian War. I am pasting its output to those two prompts here so that I can refer to it in my analysis via a handy hyperlink. 
 
 **Everything below this line is Clanka-generated content.**
+---
 
 ### Realist Perspecitve of the War
 
@@ -66,6 +67,8 @@ This account is far from consensus, even within IR:
 * Not all realists agree. Some realists (e.g., Stephen Walt) share Mearsheimer's structural diagnosis but differ on prescriptions; others argue Russia's actions reflect status-seeking or prestige motives that don't fit neatly into strict security-maximization models.
 
 If you'd like, I can also sketch how liberal institutionalist or constructivist frameworks explain the war, since the contrast tends to clarify what's distinctive about the realist reading.
+
+---
 
 ### Liberal Perspecitve of the War
 
