@@ -32,6 +32,7 @@ I am pursuing a part-time, distance learning International Affairs master's degr
 To this end, I asked Claude (Opus 5.5 Medium) to analyze the Ukrainian-Russian War. I am pasting its output to those two prompts here so that I can refer to it in my analysis via a handy hyperlink. 
 
 **Everything below this line is Clanka-generated content.**
+
 ---
 
 ### Realist Perspecitve of the War
