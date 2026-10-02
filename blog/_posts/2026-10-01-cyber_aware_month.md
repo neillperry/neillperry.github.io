@@ -75,14 +75,45 @@ She cites the Greenblatt article that I read last month! "[M]odels tend to take 
 - they do this because of their tendency to seek success
 - behavioral tension between success-seeking and honesty
 
+### Securing Agentic AI: A Discussion Paper
+
+So [FAR.AI](https://www.far.ai/research/securing-agentic-ai-discussion-paper) put this paper out a year ago, and it relates to the AISI blog post mentioned up top. Let's read. 
+
+So this paper is focused on the outside-in threat, "how attackers could exploit agentic features to compromise agentic AI systems." But as OAI/HF and AISI demonstrate, there also needs to be guidelines on protecting against inside-out threats. 
+
+Starts with some history on AI and how agents differ from ML classifiers and generative models. "They're alive!! Like Frankenstein's monster!!"  The paper doesn't actually say that but it should. The background is all pretty standard stuff. Readers of this blog already know all of this. 
+
+🤔 Apparently, there's a difference between the terms "agentic AI" and "AI agents." Okay, there's some stuff here that I did not know. There are different AI agent design patterns: sequential, parallel, loop, reason and act, coordinator and swarm.
+
+Now to the boney meat.
+
+**How does agentic AI security differ from AI security?**
+- greater attack surface, such as the agents' memory, tools, infrastructure
+- agents could go rogue, like the inside-out threats already mentioned
 
 
+As far as what to do about rogue agents, "Mitigations for these attacks are still being researched; there are currently no measures to guarantee robustness of the AI itself." 😣 That is not helpful. The paper then says just follow basic cyber hygiene. 
 
+That's all the time I will spend on this paper. I had hoped for more. 
 
+### Stealing Reasoning Traces from Proprietary LLM APIs
 
+Somehow I stumbled upon a cyber AI paper that has its own dedicated website: [Stolen Thoughts](https://stolen-thoughts.com/). The order of the first three authors was decided by a dice roll. 🎲🎲 
 
+LLM model providers "conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to teh client as blocks of encrypted text, which the client passes back with each subsequent request." This reminds me of [JSON web tokens (JWT)](https://portswigger.net/web-security/jwt). It is stateless storage of context. 
 
+The encrypted traces are interchangeable across "different sessions, users, and models within a provider's ecosystem." Not great, Bob. This reminds me of [session cookie replay attacks](https://www.onelogin.com/blog/defending-your-organization-against-session-cookie-replay-attacks/) and [session hijacking](https://www.obsidiansecurity.com/blog/session-hijacking-how-it-works-how-to-stop-it).
 
+Something I learned from my SDE days is that session cookies must be tied to the user's current session and invalidated once the session is over. Obsidian Security says to "enforce short session timeouts and token rotation."
 
+Okay, the Dice Players developed a "scalable decryption jailbreak." They pass the encrypted reasoning trace to a weaker, less secure model from the same provider to decrypt the entire thing.  🍌🍌 I was about to say that something is wrong with the LLM providers' encryption implementation, and that's exactly what the paper says.  The authors suggested a fix that "re-binds every [AEAD] envelope to its originating user, session, and conversational position."
 
+Why this is bad?
+- circumvent anti-distillation safeguards
+- steal private data
+- expose hazardous data
+- vulnerable to prompt injection
 
+*Weaker Models*: Frontier models are heavily safeguarded while their weaker siblings from the same company "are optimized for cost and speed, often lacking these stringent anti-distillation defenses." The weaker models decrypt what the advanced models' encrypted context. 
+
+I will stop here. This is an engrossing paper on an egregious security flaw. The custom website is also well-designed to explain their findings.  

@@ -58,6 +58,7 @@ In all honesty, this is the beginning of a massive AI policy outline.
 
 ### AI in China
 1. [China's AI Ecosystem: A Background Explainer](https://oxfordchinapolicylab.org/research/china-s-ai-ecosystem-a-background-explainer)
+2. [China & Global Priorities Group reading list](https://docs.google.com/document/d/1OJcHhhBfNwEbeUaT-d4RIq58I1oJ3XGxu2yCzsnieuo/)
 
 ### Books
 1. [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) by Chip Huyen
