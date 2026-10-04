@@ -81,11 +81,11 @@ Claude dumbed this down for me.
 
 ### Depth vs Width
 
-So the Universal Approximation Theorem mentions depth, so I asked Claude to explain this. I have no idea if any of this is correct.
+So the Universal Approximation Theorem mentions width, so I asked Claude to explain this. I have no idea if any of this is correct.
 
 Summarized from Clanka: both width and depth add capability to a neural network but in different ways. 
 
-**Width**: *how manyunits are in a layer: how many features the network computes side by side at one stage.*
+**Width**: *how many units are in a layer: how many features the network computes side by side at one stage.*
 
 **Depth**: *how many layers there are: how many times the network can build new features out of the previous ones.*
 
