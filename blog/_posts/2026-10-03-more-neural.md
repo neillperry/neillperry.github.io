@@ -14,7 +14,7 @@ summary:  Let's read about feedforward networks, a subtopic of neural networks.
      title="Layers come in the form of rocks or neural network nodes. All layers"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
-          Rock layers in Willis Canyon, Utah. Those very different layers than the ones I study here. (NAID: 7721941)
+          Rock layers in Willis Canyon, Utah. Those are very different layers than the neural ones I study here. (NAID: 7721941)
      </figcaption>
 </figure>
 
@@ -38,11 +38,13 @@ In a feedforward network, information flows in one direction only. Recurrent neu
 
 They're called networks "because they are typically represented by composing together many different functions." So each layer of the network is a separate function. 
 
-"During neural network training, we drive f(x) to match f*(x)." So Clanka analogizes a neural network to an assembly line. Each layer is a workstation. *Nobody tells station 1 what to do. Over many rounds, each station adjusts based on how the final product fell short, and the stations end up with some workable division of tasks.*
+"During neural network training, we drive f(x) to match f*(x)." So Clanka analogizes a neural network to an assembly line. Each layer is a workstation. 
 
-**Output layer**: the final layer of a feedforward network. Its size is fixed by the task.
-**Hidden Layers**: all the other layers. 
-**Input layer:**: its size is fixed by the incoming data.
+*Nobody tells station 1 what to do. Over many rounds, each station adjusts based on how the final product fell short, and the stations end up with some workable division of tasks.*
+
+* **Output layer**: the final layer of a feedforward network. Its size is fixed by the task.
+* **Hidden Layers**: all the other layers. 
+* **Input layer:**: its size is fixed by the incoming data.
 
 "Each hidden layer of the network is typically vector valued." -- this means that each layer's output is a list of numbers, aka, a vector. So it might be something like h = [0.2, 5.3, 0.0. 1.2].
 
