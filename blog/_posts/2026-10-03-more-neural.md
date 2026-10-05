@@ -27,7 +27,7 @@ summary:  Let's read about feedforward networks, a subtopic of neural networks.
 
 ### Back to Learning Neural Networks
 
-Let's read Chapter 6: Deep Feedforward Networks. I am learning heavily on Claude to explain what is going on.  I will try to *italicize* Clanka text; text from the book are in quotes. 
+Let's [read Chapter 6: Deep Feedforward Networks](https://www.deeplearningbook.org/contents/mlp.html). I am learning heavily on Claude to explain what is going on.  I will try to *italicize* Clanka text; text from the book are in quotes. 
 
 
 ### Into the Book
