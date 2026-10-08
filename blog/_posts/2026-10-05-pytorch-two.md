@@ -79,7 +79,24 @@ To explain the Linear syntax:  `nn.Linear(in_features, out_features)`. For each 
 
 Okay, that was a total waste of tokens. The tutorial goes on to explain what is going on.  
 
-### Format Test for my Blog
-This sentence has inline HTML <span style="color: green;">red text</span> in it.
+### Tutorial Explanation
+* <span style="color: blue;">nn.Flatten</span>: As noted by Claude, this code initializes the flatten layer, which converts our "2D 28x28 image into a continguous array of 784 pixel values." 
+
+* <span style="color: darkgreen;">nn.Linear</span>: this is a module, and it "applies a linear transformation." I asked Claude, and it said this is called "linear" because it is just addition and multiplication. "Each weight is paired with one pixel for one output." So they are all multiplied and added together, and the bias is added once. 
+
+* <span style="color: darkorange;">nn.ReLU</span>: Per the tutorial, this is called an activation.  It is "what create[s] the complex mappings between the model's inputs and outputs." They help learn nonlinearity. Claude described ReLU's job as "bending or thresholding."
+
+Here's some more explanation from Claude: 
+
+>ReLU turns 512 weighted sums into 512 detectors that each switch on only for certain pixel patterns. The next layer combines those. With enough of these "kinks," the network can approximate very complicated boundaries, like the one between "shirt" and "pullover."
+
+* <span style="color: fuchsia;">nn.Sequential</span>: this container defines the order in which data flows through the modules. From the test code, you can see the order of the layers. 
+
+Finally, the tutorial ends with an explanation of model parameters. Tomorrow it's on to the next section of optimizing model parameters. 
+
+### Formatting Test
+I am leaving this here for future reference. 
+
+This sentence has <span style="color: purple;">purple inline HTML</span> in it.
 
 This Kramdown text has *colored text*{: style="color: crimson"} in a sentence.
