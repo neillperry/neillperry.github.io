@@ -1,0 +1,10 @@
+<div class="container-fluid views">
+	{% if include.total %}Site visits{% else %}Views{% endif %}: <span id="gc-count">…</span>
+</div>
+<script>
+	fetch('https://yourname.goatcounter.com/counter/' +
+	      {% if include.total %}'TOTAL'{% else %}encodeURIComponent(location.pathname){% endif %} + '.json')
+		.then(r => r.json())
+		.then(d => { document.getElementById('gc-count').textContent = d.count; })
+		.catch(() => { document.getElementById('gc-count').textContent = '–'; });
+</script>
