@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Back --Street-- Propagation's Back!
+title: Back Propagation's Back!
 date: 2026-10-13
-jumbotron: Back --Street-- Propagation's Back!
+jumbotron: Back Propagation's Back!
 regular_date: October 13, 2026
-summary: My back-propagation hurts. It is time to descend the gradient of cost. 
+summary: Everbody, yeah. Rocky your body right. Back propagation's back, alright! 
 
 ---
 
 <figure style="text-align:center;">
 <img src="https://catalog.archives.gov/medialz/kansas-city/rg-075/285796/75-SR-6002_001.jpg" 
      alt="Black and white photograph of a driving a car in reverse (NAID: 57275282)" 
-     title="Letting the ones in the back know about their contribution to cost"
+     title="Letting the folks in the back know about their contribution to cost"
      style="width:70%; height:auto;" />
      <figcaption style="font-style: italic; margin-top: 10px;">
           Since this post learns about back propagation, here is a photograph of a Driving Backwards Test (NAID: 57275282)
