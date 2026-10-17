@@ -52,7 +52,7 @@ Let's start with Chapter 6 Deep Feedforward Networks from [the open source Deep 
 
 A feedforward neural network is one that accepts an input (x), then runs that through all the hidden layers until finally producing an output (ŷ). A back-propagation algorithm "allows the information from the cost to then flow backward through the network in order to compute the gradient." Backprop is not the entire learning process; it's just "method for computing the gradient." Back propagation algorithms can be used in contexts outside of multi-layer neural networks to "compute derivatives of any function." "Back-propagation is an algorithm that computes the chain rule [of calculus]." The chain rule computes "the derivatives of functions formed by composing other functions whose derivatives are known."
 
-I got a bit loss there. "The back-propagation algorithm is very simple." 🫣 I'm sure this is one of those things that once studied is very intuitive, but on the other side of the curve, it doesn't seem that way. [Edit: after reading through the other books in this chapter, the paragraph above made more sense.]
+I got a bit loss there. "The back-propagation algorithm is very simple." 🫣 I'm sure this is one of those things that once studied is very intuitive, but on the other side of the curve, it doesn't seem that way. [Edit: after reading through the other books mentioned in this post, the paragraph above made more sense.]
 
 The Deep Learning book was meh. Let's see what Chip Huyen has to say on this. Chapter 7 of AI Engineering.  
 
@@ -62,11 +62,11 @@ She describes it as "how a model’s parameters are updated during training base
 
 Neural networks use loss functions (also called cost functions) to measure how wrong its estimate was. "[T]he primary approach for minimizing cost in deep learning paradigms is to pair an approach called gradient descent with another one called backpropagation." These two enable learning. The network learns by tweaking the model's parameters so that the estimated value (ŷ) gets as close as possible to whatever it's trying to model (y).
 
-"Gradient descent is a handy, efficient tool for adjusting a model's parameters with the aim of minimizing cost...." The book has a fun illustration of a blind trilobite on graph. So the network wants to descend the gradient on this curve to find the lowest cost. Lower cost, more accurate representation. Okay, so this is where finding the derivative comes into play because the network needs to determine the slope of teh line at a given point to know if there is lower cost elsewhere on the curve.
+"Gradient descent is a handy, efficient tool for adjusting a model's parameters with the aim of minimizing cost...." The book has a fun illustration of a blind trilobite standing on a curvy line on a line graph. So the network wants to descend the gradient on this curve to find the lowest cost. Lower cost, more accurate representation. Okay, so this is where finding the derivative comes into play because the network needs to determine the slope of the line at a given point to know if there is lower cost elsewhere on the curve.
 
-The illustratoin and accompanying walk through are elementary but very useful. The authors note that their illustration is for a single parameter model; real models have thousands, millions, and billions of parameters. "[I]t's impossible for the human mind to imagine a billion-dimensional space." Not with that attitude.  
+The illustration and accompanying walk through are elementary but very useful. The authors note that their illustration is for a single parameter model; real models have thousands, millions, and billions of parameters. "[I]t's impossible for the human mind to imagine a billion-dimensional space." Not with that attitude.  
 
-"[G]radeient descent iteratively evaluates slopes to identify the adjustments to those parameters that correspond to the steepest reduction in cost." The authors describe backpropagation as "an ellegant application" of the calculus chain rule, which is what the Deep Learning book said.
+"[G]radeient descent iteratively evaluates slopes to identify the adjustments to those parameters that correspond to the steepest reduction in cost." The authors describe backpropagation as "an ellegant application" of the calculus chain rule, which is the same rule that the Deep Learning book mentioned.
 
 > Whereas forward propagation carries information about the input x through successive layers of neurons to approximate y with \hat{y}, backpropagation carries information about the cost C *backwards* through the layers in reverse order and, with the overarching aim of reducing cost, adjusts neuron parameters throughout the network. 
 
@@ -79,7 +79,7 @@ Here's the money quote:
 
 ### Clanka Grades My Work
 
-Claude reviewed the section above on back propagation for errors. It said that the post overall was accurate overall. But the Clanka did want to emphasize that "backprop" and "gradient descent" are two separate concepts:
+Claude reviewed the section above on back propagation for errors. It said that the post was accurate overall. But the Clanka suggest emphasizing that "backprop" and "gradient descent" are two separate concepts:
 
 1. Back propagation computes the gradients
 2. Gradient descent uses those gradients to update the weights
