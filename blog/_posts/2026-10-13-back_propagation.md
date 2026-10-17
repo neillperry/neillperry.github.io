@@ -58,7 +58,7 @@ The Deep Learning book was meh. Let's see what Chip Huyen has to say on this. Ch
 
 She describes it as "how a model’s parameters are updated during training based on the error." During the interview, after I fumbled my answer, this is essentially how the interviewer explained the concept to me (but he also went on to offer more information). Chip doesn't offer much beyond that, so on to another book.
 
-**Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence by Jon Krohn, Grant Beyleveld, Aglaé Bassens**: this is a little more beginner friendly than the Deep Learning book. According to them, backpropagation pairs with gradient descent for a neural network to approximate the desired output by tunning the underlying parameters (weights and biases).
+**Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence by Jon Krohn, Grant Beyleveld, Aglaé Bassens**: this is a little more beginner friendly than the Deep Learning book. According to them, backpropagation pairs with gradient descent for a neural network to approximate the desired output by tuning the underlying parameters (weights and biases).
 
 Neural networks use loss functions (also called cost functions) to measure how wrong its estimate was. "[T]he primary approach for minimizing cost in deep learning paradigms is to pair an approach called gradient descent with another one called backpropagation." These two enable learning. The network learns by tweaking the model's parameters so that the estimated value (ŷ) gets as close as possible to whatever it's trying to model (y).
 
@@ -66,11 +66,11 @@ Neural networks use loss functions (also called cost functions) to measure how w
 
 The illustration and accompanying walk through are elementary but very useful. The authors note that their illustration is for a single parameter model; real models have thousands, millions, and billions of parameters. "[I]t's impossible for the human mind to imagine a billion-dimensional space." Not with that attitude.  
 
-"[G]radeient descent iteratively evaluates slopes to identify the adjustments to those parameters that correspond to the steepest reduction in cost." The authors describe backpropagation as "an ellegant application" of the calculus chain rule, which is the same rule that the Deep Learning book mentioned.
+"[G]radient descent iteratively evaluates slopes to identify the adjustments to those parameters that correspond to the steepest reduction in cost." The authors describe backpropagation as "an ellegant application" of the calculus chain rule, which is the same rule that the Deep Learning book mentioned.
 
 > Whereas forward propagation carries information about the input x through successive layers of neurons to approximate y with \hat{y}, backpropagation carries information about the cost C *backwards* through the layers in reverse order and, with the overarching aim of reducing cost, adjusts neuron parameters throughout the network. 
 
-"We appreciate that this is not the lightest section of this book." I applaud the self-awareness here. They actually do a great job of explaining this technical concept using non-technical analogies and metaphors: "the cost function represents a hiking trail, and our trilobite is trying to reach basecamp."
+"We appreciate that this is not the lightest section of this book." I applaud the self-awareness here. They actually do a great job of explaining this technical concept using non-technical analogies and metaphors: "the cost function represents a hiking trail, and our trilobite is trying to reach basecamp." This analogy makes a lot more sense when you can see the accompanying illustration. 
 
 The process of the blind trilobite moving down the curve of the function (gradient) is called adjusting the weight. "By adjusting the weight in proportion to the cost's function's gradient *with respect to that weight*, backprop adjusts that weight in a direction that reduces the cost."
 
