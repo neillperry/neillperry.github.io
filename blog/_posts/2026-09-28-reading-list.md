@@ -41,12 +41,14 @@ In all honesty, this is the beginning of a massive AI policy outline.
 7. "[Attention is All You Need](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)" by a bunch of AI scientists who are all now rich 
 
 ### Papers
+1. "[AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology)"
+2. "[NVIDIA Tesla: A Unified Graphics and Computing Architecture](https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/lindholm08_tesla.pdf)"
+3. "[Where's the 'Intelligence Explosion?'](https://www.noahpinion.blog/p/wheres-the-intelligence-explosion)" by Ramez Naam
+4. "[The Alignment Problem from a Deep Learning Perspective](https://arxiv.org/abs/2209.00626)" by Richard Ngo, Lawrence Chan, Sören Mindermann
 
-2. "[AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology)"
-3. "[NVIDIA Tesla: A Unified Graphics and Computing Architecture](https://www.cs.cmu.edu/afs/cs/academic/class/15869-f11/www/readings/lindholm08_tesla.pdf)"
 
 
-### AI Misue
+### AI Misuse
 1. [Google Threat Intelligence Group: The Evolution of Adversarial AI](https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai) 
 2. [Detecting and Countering Misuse of AI: September 2026](https://www.anthropic.com/threat-intelligence-report-september-2026) 
 
@@ -65,6 +67,7 @@ In all honesty, this is the beginning of a massive AI policy outline.
 2. [Reinforcement Learning from Human Feedback](https://rlhfbook.com/) by Nathan Lambert
 3. [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 4. [Neural Networks and Deep Learning](https://www.oreilly.com/library/view/neural-networks-and/9781492037354/) by Aurélien Géron
+5. [Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence](https://www.deeplearningillustrated.com/)  by Jon Krohn, Grant Beyleveld, Aglaé Bassens
 
 Don't buy the AI Engineering book, but instead check for it at your local library.  
 

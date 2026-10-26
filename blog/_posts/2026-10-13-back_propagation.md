@@ -40,7 +40,7 @@ You should read Nathan Lambert. He runs a [Substack newsletter called Interconne
 
 The RSI "view dramatically undersells human bottlenecks in building models and allocating resources at organizations, and draws conclusions on future AI capabilities more broadly."
 
-He says that many AI researchers have been extraordinarily preescient on predicting AI development, but that does not mean their current forecasts are accurate. 
+He says that many AI researchers have been extraordinarily prescient on predicting AI development, but that does not mean their current forecasts are accurate. 
 
 "The biggest short-term risk could be from the AI labs not taking safety seriously enough – they haven’t hardened their own infrastructure, enabling AI misuse to proliferate"
 
@@ -62,7 +62,7 @@ She describes it as "how a model’s parameters are updated during training base
 
 Neural networks use loss functions (also called cost functions) to measure how wrong its estimate was. "[T]he primary approach for minimizing cost in deep learning paradigms is to pair an approach called gradient descent with another one called backpropagation." These two enable learning. The network learns by tweaking the model's parameters so that the estimated value (ŷ) gets as close as possible to whatever it's trying to model (y).
 
-"Gradient descent is a handy, efficient tool for adjusting a model's parameters with the aim of minimizing cost...." The book has a fun illustration of a blind trilobite standing on a curvy line on a line graph. So the network wants to descend the gradient on this curve to find the lowest cost. Lower cost, more accurate representation. Okay, so this is where finding the derivative comes into play because the network needs to determine the slope of the line at a given point to know if there is lower cost elsewhere on the curve.
+"Gradient descent is a handy, efficient tool for adjusting a model's parameters with the aim of minimizing cost...." The book has a fun illustration of a blind trilobite standing on a curvy line on a line graph. So the trilobite wants to descend the gradient on this curve to find the lowest cost. Lower cost, more accurate representation. Okay, so this is where finding the derivative comes into play because the network needs to determine the slope of the line at a given point to know if there is lower cost elsewhere on the curve.
 
 The illustration and accompanying walk through are elementary but very useful. The authors note that their illustration is for a single parameter model; real models have thousands, millions, and billions of parameters. "[I]t's impossible for the human mind to imagine a billion-dimensional space." Not with that attitude.  
 
